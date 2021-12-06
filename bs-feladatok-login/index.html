@@ -6,43 +6,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <title>Login screen</title>
+    <title>Login</title>
 </head>
 
 <body>
     <main>
-        <section class="py-5 ">
-            <div class="container" style="display: block; top: 0; left: 0;">
-                <div class="row align-items-center" style="position: relative; width: auto;">
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4 text-center">
-                        <div class="mx-auto my-auto align-middle" id="initial" style="font-size: 1.9rem; height: 3rem; width: 3rem; border-radius: 5px; background-color: darkgreen; color: white">
-                            <span>G</span>
-                          </div>
-                        <h1 class="h4">Please sign in</h1>
-                        <form>
-                            <div class="form-group">                                
-                                <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Email address" style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;">                                
-                                <input type="password" class="form-control" name="password" id="password"
-                                    placeholder="Password" style="border-top-left-radius: 0; border-top-right-radius: 0;">
-                            </div>
-                        </form>
-                        <div class="form-check mb-4">
-                            <input type="checkbox" class="form-check-input" name="remember" id="remember">
-                            <label for="remember" class="form-check-label">Remember me</label>
-                        </div>
-                        <button type="button" class="btn btn-primary btn-block">Block level button</button>
+        <div class="container vh-100 d-inline-block">
+            <div class="row offset-1 d-flex align-items-center h-100">
+                <div class="col-4">
+
+                </div>
+                <div class="col-4 text-center">
+                    <div class="mx-auto my-auto align-middle" id="initial"
+                        style="font-family: 'Passions Conflict', cursive; font-weight: bold; font-size: 2.9rem; height: 4rem; width: 4rem; border-radius: 5px; background-color: #740E4C; color: white">
+                        <span>G</span>
                     </div>
-                    <div class="col-sm-4"></div>
+                    <h1 class="h5 my-4">Please sign in</h1>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email address"
+                                style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+                            <input type="password" class="form-control" name="password" id="password"
+                                placeholder="Password" style="border-top-left-radius: 0; border-top-right-radius: 0;">
+                        </div>
+                    </form>
+                    <div class="form-check mb-4">
+                        <input type="checkbox" class="form-check-input" name="remember" id="remember">
+                        <label for="remember" class="form-check-label">Remember me</label>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-block">Sign in</button>
+                    <p class="mt-5 text-muted">&copy; 2017-2020</p>
+                </div>
+                <div class="col-4">
+
                 </div>
             </div>
-        </section>
+        </div>
     </main>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
